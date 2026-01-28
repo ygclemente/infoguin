@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    
+   font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(src/selective-focus-shot-penguin-standing-stones-head-down-antarctica.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+.card-box{
+    background-color: rgba(6, 6, 6, 0.678);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 18px;
+    color: white;
+    padding: 48px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inputs{
+    flex-direction: column;
+    display: flex;
+    padding: 22px;
+    gap: 12px;
+}
+input{
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+}
+button{
+    padding: 16px 56px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(55, 117, 232);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    transition: 0.5s;
+}
+button:hover{
+    background-color:rgb(18, 71, 169);
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:active{
+    background-color:rgb(13, 36, 81);
+}

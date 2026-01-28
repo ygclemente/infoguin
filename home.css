@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url(src/selective-focus-shot-penguin-standing-stones-head-down-antarctica.jpg );
+    background-repeat: no-repeat;
+    background-position: inherit;
+    color: white;
+}
+header{
+    padding: 26px;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    gap: 38px;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    transition: 0.3s;
+}
+a:hover{
+    background-color: rgba(0, 0, 48, 0.784);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+a:active{
+    background-color: rgba(0, 0, 7, 0.667);
+}
+.section1{
+    font-size: 1.1em;
+    background-color: rgba(3, 3, 31, 0.579);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10vh auto;
+    border-radius: 0px 800px  800px 0px;
+}
+.section1 p{
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+.titulo span {
+  display: inline;
+}
+@media (max-width: 500px) {
+  .titulo span {
+    display: block;
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-bar a {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+}
+h1{
+ padding-left: 20px ;
+ flex-wrap: wrap;
+}
+.card-box-log-cad{
+    background-color: rgba(1, 1, 14, 0.952);
+    color: white;
+    padding: 56px;
+    font-size: 0.8em;
+    width: 90vh auto;
+    height: 28vh auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0px 800px 800px 0;
+}
+.card-box-log-cad a{
+    text-decoration: none;
+    color: rgb(14, 94, 179);
+}
+.card-pinguim {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.card-pinguim img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+  max-height: 180px;
+}
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 20px;
+  padding: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+}
+.button-sairdaconta{
+    padding: 16px 56px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(55, 117, 232);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    transition: 0.5s;
+}
+.button-sairdaconta{
+    background-color:rgb(18, 71, 169);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button-sairdaconta:active{
+    background-color:rgb(13, 36, 81);
+}
+.card-perfil{
+  background-color: rgba(0, 0, 0, 0.386);
+  border-radius: 12px;
+  padding: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card-sobre{
+  background-color: rgba(0, 0, 0, 0.386);
+  border-radius: 12px;
+  padding: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media (max-width: 600px) {
+  .card-sobre {
+    margin-top: 190px; 
+  }
+}
+.card-contato{
+  background-color: rgba(0, 0, 0, 0.386);
+  border-radius: 12px;
+  padding: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
