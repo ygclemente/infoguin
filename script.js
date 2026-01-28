@@ -97,6 +97,6 @@ function sairDaConta() {
   localStorage.removeItem("usuarioLogado");
   window.location.href = "index.html";
 }
-
+//carregar dados
 
 window.addEventListener('load', carregarDados);
